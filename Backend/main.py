@@ -1,7 +1,7 @@
 # main.py
 from fastapi import FastAPI, Request
 from pydantic import BaseModel
-from utils import dummy_ai_response, generate_affiliate_links
+from Backend.utils import dummy_ai_response, generate_affiliate_links
 
 app = FastAPI()
 
